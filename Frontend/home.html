@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="home-container">
+        <h2>Welcome!</h2>
+        <button class="signout-btn" onclick="logout()">Sign Out</button>
+        <br> 
+        <br>
+        <table id="idTable" border="3">
+            <thead>
+                <tr>
+                    <th>             S.No              </th>
+                    <th>            Random ID          </th>
+                    <th>        Generated Date & Time </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table rows will be dynamically added here -->
+            </tbody>
+        </table>
+        <br>
+        <button onclick="generateID()">Generate Random ID</button>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
