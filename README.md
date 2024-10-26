@@ -1,6 +1,5 @@
-# Coderbyte-Assessment-Paramvir-Rotwal
+# Javascript-PHP Application
  
- *This is the repository of the assessment provided by TNQ Technologies Private Limited on coderbyte
  *Project made by: Paramvir Rotwal
 
  *Following Tech Stack is used for this project:*
